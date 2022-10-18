@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/LogoTint"
+    tools:context=".Settings">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:background="@color/LogoTheme">
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:background="@color/LogoTheme"/>
+
+        <ImageButton
+            android:id="@+id/fpBtnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/LogoTheme"
+            android:contentDescription="@string/back_button"
+            android:src="@drawable/back" />
+
+        <Space
+            android:layout_width="110dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Settings"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+
+        <Space
+            android:layout_width="50dp"
+            android:layout_height="wrap_content" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/LogoTint"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/back_button"
+            android:src="@drawable/ic_baseline_info_24" />
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About"
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp"
+            android:textSize="25dp" />
+    </TableRow>
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:layout_height="150dp"
+            android:layout_width="150dp"
+            android:background="@drawable/exploring_sa"
+            />
+        <Space
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name: Exploring SA\nVersion: 1.0"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="114dp">
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="wrap_content" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/LogoTint"
+            android:src="@drawable/length" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Switch Distance units"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="wrap_content" />
+
+        <Switch
+            android:id="@+id/units"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/distance_units"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="M"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="138dp">
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="wrap_content" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/LogoTint"
+            android:src="@drawable/dropping" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Select preferred landmark"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <ImageButton
+            android:id="@+id/btnCategory"
+            android:layout_width="54dp"
+            android:layout_height="38dp"
+            android:layout_gravity="center"
+            android:background="@color/LogoTint"
+            android:src="@drawable/down_arrows" />
+    </TableRow>
+
+
+
+</LinearLayout>

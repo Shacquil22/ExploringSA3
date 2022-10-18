@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgo"
+    tools:context=".Signup">
+
+    <!--back button-->
+    <ImageButton
+        android:id="@+id/fpBtnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="30dp"
+        android:src="@drawable/back"
+        android:background="@color/LogoTint"
+        android:clickable="true"
+        android:focusable="true"
+        android:contentDescription="@string/back_button" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/txtUsernameS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="@string/enter_username"
+        android:layout_marginTop="125dp"
+        android:layout_marginStart="63dp"
+        android:textColor="@color/black">
+
+    </com.google.android.material.textview.MaterialTextView>
+
+    <!--Edit boxes-->
+    <!--Username-->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_sign_Name"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        app:boxCornerRadiusTopStart="20dp"
+        app:boxCornerRadiusTopEnd="20dp"
+        app:boxCornerRadiusBottomStart="20dp"
+        app:boxCornerRadiusBottomEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="150dp"
+        app:hintTextColor="@color/black"
+        app:startIconTint="@color/iconColor"
+        app:boxBackgroundColor="@color/LogoTheme"
+        app:endIconMode="clear_text">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtUsername"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/white"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/txtNumberS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/til_sign_Name"
+        android:text="@string/enter_phone_number"
+        android:layout_marginTop="85dp"
+        android:layout_marginStart="63dp"
+        android:textColor="@color/black">
+
+    </com.google.android.material.textview.MaterialTextView>
+
+    <!--Number-->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_sign_Number"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        app:boxCornerRadiusTopStart="20dp"
+        app:boxCornerRadiusTopEnd="20dp"
+        app:boxCornerRadiusBottomStart="20dp"
+        app:boxCornerRadiusBottomEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/til_sign_Name"
+        android:layout_marginTop="110dp"
+        app:hintTextColor="@color/black"
+        app:startIconTint="@color/iconColor"
+        app:boxBackgroundColor="@color/LogoTheme"
+        app:endIconMode="clear_text">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtNumber"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/white"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/txtEmailS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/til_sign_Number"
+        android:text="@string/email_address"
+        android:layout_marginTop="85dp"
+        android:layout_marginStart="63dp"
+        android:textColor="@color/black">
+
+    </com.google.android.material.textview.MaterialTextView>
+
+    <!--Email-->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_sign_Email"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        app:boxCornerRadiusTopStart="20dp"
+        app:boxCornerRadiusTopEnd="20dp"
+        app:boxCornerRadiusBottomStart="20dp"
+        app:boxCornerRadiusBottomEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/til_sign_Number"
+        android:layout_marginTop="110dp"
+        app:hintTextColor="@color/black"
+        app:startIconTint="@color/iconColor"
+        app:boxBackgroundColor="@color/LogoTheme"
+        app:endIconMode="clear_text">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/white"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/txtPasswordS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/til_sign_Email"
+        android:text="@string/enter_password"
+        android:layout_marginTop="85dp"
+        android:layout_marginStart="63dp"
+        android:textColor="@color/black">
+
+    </com.google.android.material.textview.MaterialTextView>
+
+    <!--Password-->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_sign_Password"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        app:boxCornerRadiusTopStart="20dp"
+        app:boxCornerRadiusTopEnd="20dp"
+        app:boxCornerRadiusBottomStart="20dp"
+        app:boxCornerRadiusBottomEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/til_sign_Email"
+        android:layout_marginTop="110dp"
+        app:hintTextColor="@color/black"
+        app:startIconTint="@color/iconColor"
+        app:boxBackgroundColor="@color/LogoTheme"
+        app:endIconMode="clear_text">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtPasswordS"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="textPassword"
+            android:textColor="@color/white"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!--SigUp button-->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSignUp"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/til_sign_Password"
+        android:layout_marginTop="80dp"
+        app:backgroundTint="@color/LogoTheme"
+        android:clickable="true"
+        android:text="@string/signup"
+        android:textAlignment="center"
+        app:cornerRadius="10dp"
+        android:focusable="true">
+
+    </com.google.android.material.button.MaterialButton>
+
+    <!--Already have an account-->
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvmGotAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnSignUp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="70dp"
+        android:text="@string/already_have_account"
+        android:textColor="@color/black">
+
+    </com.google.android.material.textview.MaterialTextView>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvmLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnSignUp"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="150dp"
+        android:clickable="true"
+        android:text="@string/login"
+        android:textColor="@color/purple_200"
+        android:focusable="true">
+
+    </com.google.android.material.textview.MaterialTextView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

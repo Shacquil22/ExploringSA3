@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mapTypes"
+        android:title="@string/m_type">
+        <menu>
+            <item
+                android:id="@+id/mapDefault"
+                android:title="@string/map_default"
+                android:icon="@drawable/normal">
+
+            </item>
+
+            <item
+                android:id="@+id/mapSatellite"
+                android:title="@string/satellite"
+                android:icon="@drawable/satellite">
+
+            </item>
+
+            <item
+                android:id="@+id/mapTerrain"
+                android:title="@string/terrain"
+                android:icon="@drawable/terrain">
+
+            </item>
+        </menu>
+    </item>
+
+</menu>

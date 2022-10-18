@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/sortBy"
+        android:title="@string/sort_by">
+        <menu>
+            <item
+                android:id="@+id/allPlaces"
+                android:title="@string/all_places"
+                android:icon="@drawable/alphabetical">
+
+            </item>
+
+            <!--            <item-->
+            <!--                android:id="@+id/mostViewed"-->
+            <!--                android:title="@string/most_viewed"-->
+            <!--                android:icon="@drawable/viewed">-->
+
+            <!--            </item>-->
+
+            <item
+                android:id="@+id/popular"
+                android:title="@string/popular"
+                android:icon="@drawable/popular">
+
+            </item>
+
+            <item
+                android:id="@+id/historical"
+                android:title="@string/historical"
+                android:icon="@drawable/historical">
+
+            </item>
+
+            <item
+                android:id="@+id/modern"
+                android:title="@string/modern"
+                android:icon="@drawable/modern">
+
+            </item>
+        </menu>
+    </item>
+
+</menu>

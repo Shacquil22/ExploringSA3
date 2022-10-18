@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">ExploringSA</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="email_address">Enter email address:</string>
+    <string name="enter_password">Enter password:</string>
+    <string name="signup">Signup</string>
+    <string name="or_login_with">Or login with</string>
+    <string name="facebook_button">facebook button</string>
+    <string name="google_button">Google button</string>
+    <string name="no_account">Don\'t have an account?</string>
+
+    <string name="already_have_account">Already have an account?</string>
+    <string name="forgot_your_password">Forgot your password?</string>
+    <string name="enter_username">Enter username:</string>
+    <string name="enter_phone_number">Enter phone number:</string>
+
+    <string name="forgot_password_description">Enter your registered email below to receive password reset instructions</string>
+    <string name="remember_password">Remember password?</string>
+    <string name="send">Send</string>
+    <string name="back_button">backButton</string>
+    <string name="send_delivered_icon">send/delivered icon</string>
+    <string name="background_circle">background circle</string>
+    <string name="user_image">user image</string>
+
+    <string name="favourite">Favourite</string>
+    <string name="drawer_open">Open drawer</string>
+    <string name="drawer_close">Close drawer</string>
+    <string name="maps">Maps</string>
+    <string name="profile">Profile</string>
+    <string name="popular">Popular</string>
+    <string name="home">Home</string>
+    <string name="gauteng">Gauteng</string>
+
+    <string name="most_viewed">Most viewed</string>
+    <string name="all_places">All places</string>
+    <string name="landmark">Landmarks</string>
+    <string name="city">City</string>
+    <string name="divider">|</string>
+    <string name="duration">Duration</string>
+    <string name="distance">Distance</string>
+    <string name="picture_of_landmark">picture of landmark</string>
+    <string name="heart_button">heart button</string>
+    <string name="time">Time</string>
+    <string name="logout">Logout</string>
+    <string name="my_profile">My Profile</string>
+    <string name="settings">Settings</string>
+    <string name="miles">Miles</string>
+    <string name="map_type">Select map type</string>
+    <string name="terrain">Terrain</string>
+    <string name="satellite">Satellite</string>
+    <string name="map_default">Default</string>
+    <string name="m_type">Map Type</string>
+    <string name="current_location">Current location</string>
+    <string name="username">Username</string>
+    <string name="pretoria">Pretoria</string>
+    <string name="cape_town">Cape Town</string>
+    <string name="filter_search">Filter search</string>
+    <string name="alphabetical_order">Alphabetical Order</string>
+    <string name="sort_by">Sort By</string>
+    <string name="historical">Historical</string>
+    <string name="modern">Modern</string>
+    <string name="city_image">City Image</string>
+    <string name="cites">Cites</string>
+    <string name="message">Message</string>
+    <string name="view_all">View all</string>
+    <string name="categories">Categories</string>
+    <string name="landmark_1">Landmark 1</string>
+    <string name="description_of_landmark">Description of landmark</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="searchEdit">Enter Address, City or Zip Code</string>
+    <string name="number">Number</string>
+    <!--    <string name="default_web_client_id" />-->
+</resources>
